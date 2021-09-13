@@ -1,0 +1,191 @@
+/*Begin header*/
+/*---------------------------*/
+/*---------------------------*/
+/*---------------------------*/
+/*---------------------------*/
+h1 {
+    color: white;
+    padding: 2rem 5rem;
+}
+
+.header_text {
+    background-color: rgba(213, 127, 49, 0.4);
+    margin: 50px 0;
+    color: white;
+    font-size: 1rem;
+
+}
+.header_wrapper {
+    padding: 2rem 0;
+    background: url("../images/angler-3071970_1920.jpg") center center;
+    background-size: cover;
+    max-height: 50vh;
+    position: relative;
+    z-index: 2;
+}
+.header_wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(165, 160, 160, 0.7);
+    z-index: -1;
+}
+.header_wrapper img {
+    width: 100px;
+}
+/*Begin main*/
+/*---------------------------*/
+/*---------------------------*/
+/*---------------------------*/
+/*---------------------------*/
+
+main{
+    position: relative;
+    min-height: 100vh;
+}
+img{
+    width: 100%;
+}
+/*Begin format linc*/
+/*---------------------------*/
+/*---------------------------*/
+/*---------------------------*/
+/*---------------------------*/
+a.nav-link {
+    color: black;
+    transition: all 0.1s;
+}
+
+a.nav-link:hover {
+    color: #D57F31;
+}
+
+a:hover {
+    color: #D57F31;
+}
+
+a.nav-link:first-child {
+    color: #D57F31;
+
+}
+/*Begin format btn*/
+/*---------------------------*/
+/*---------------------------*/
+/*---------------------------*/
+/*---------------------------*/
+.btn-color {
+    background-color: rgba(213, 127, 49, 0.8);
+    transition: all 0.5s;
+}
+
+.btn-color:hover {
+    background-color: rgba(213, 127, 49, 1);
+}
+
+.btn-color:active {
+    background-color: rgba(213, 127, 49, .5);
+}
+.card-header {
+    background-color: #D57F31;
+}
+.nav_edit {
+    padding: 20px 0;
+    position: relative;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin: 50px 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.video_wrapper iframe {
+    left: 5px;
+    top: 2px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+/*Begin format card in admin panel*/
+/*---------------------------*/
+/*---------------------------*/
+/*---------------------------*/
+/*---------------------------*/
+.card_edit {
+    display: block;
+    margin-bottom: 50px;
+}.btn_edit {
+    position: relative;
+    bottom: 0;
+}
+.cart_img img {
+    width: 100%;
+    margin: 0 auto;
+}
+.img_page{
+    width: 100%;
+}
+.cart_img_page {
+    width: 600px;
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+.img_page {
+    max-width: 580px;
+}
+.cart_img {
+    margin-left: 30px;
+    width: 80%;
+}
+.card-title-edit {
+    padding: 30px 0;
+}
+.form_edit {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+.form_edit input {
+    margin-bottom: 15px;
+}
+.wrapper {
+    width: 500px;
+    margin: 2rem auto;
+}
+.wrapper>form>input{
+    width: 60%;
+    margin: 1rem auto;
+}
+.submenu {
+    overflow: hidden;
+    display: flex;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+    position: absolute;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #D57F31;
+}
+
+
+
+
+
+
+
+
